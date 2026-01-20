@@ -2,8 +2,23 @@ apiVersion: v1
 entries:
   centralized:
   - apiVersion: v2
+    appVersion: 0.1.82
+    created: "2026-01-20T00:37:55.54616917Z"
+    dependencies:
+    - alias: postgresql
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 18.2.0
+    description: Helm for installing Centralized
+    digest: d51fc86ef9e4c13a2b3f13ebf90e1a59249bd1e81e57830fde3501a6ea4ac4df
+    name: centralized
+    type: application
+    urls:
+    - https://rigidd.github.io/helm-charts/centralized-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
     appVersion: 0.1.81
-    created: "2026-01-20T00:29:57.730769922Z"
+    created: "2026-01-20T00:37:55.532398939Z"
     dependencies:
     - alias: postgresql
       name: postgresql
@@ -18,7 +33,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.8
-    created: "2026-01-20T00:29:57.722621816Z"
+    created: "2026-01-20T00:37:55.525508244Z"
     dependencies:
     - alias: postgresql
       name: postgresql
@@ -31,4 +46,4 @@ entries:
     urls:
     - https://rigidd.github.io/helm-charts/centralized-0.1.0.tgz
     version: 0.1.0
-generated: "2026-01-20T00:29:57.711565607Z"
+generated: "2026-01-20T00:37:55.513518867Z"
